@@ -15,17 +15,26 @@ body {
   margin: 0 auto;
   position:relative; 
   width:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+#ball {
+  margin: 0px auto;
+  position: relative;
+  width: 100%;
 }
 .answer {
-  position:absolute;
-  width:14%;
-  top:50%;
-  left:50%;
-  margin-top:-60px;
-  margin-left:-65px;
   font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #222;
   text-transform: uppercase;
+  position:absolute;
+  width:14%;
+  top:35%;
+  left:45%;
+
 }
 
 #questionButton {
